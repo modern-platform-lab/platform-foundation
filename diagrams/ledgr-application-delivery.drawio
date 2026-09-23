@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="4Ebmf7rAyWzIDMFpPr6W">
+    <mxGraphModel dx="1103" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d8m2Un-KxhI17GBS5mbq-3" edge="1" parent="1" source="d8m2Un-KxhI17GBS5mbq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="d8m2Un-KxhI17GBS5mbq-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8m2Un-KxhI17GBS5mbq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Application Repository" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-5" edge="1" parent="1" source="d8m2Un-KxhI17GBS5mbq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="d8m2Un-KxhI17GBS5mbq-6" value="Push immutable image">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-7" edge="1" parent="1" source="d8m2Un-KxhI17GBS5mbq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="d8m2Un-KxhI17GBS5mbq-8" value="Update dev image in GIT">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="90" />
+              <mxPoint x="400" y="210" />
+            </Array>
+            <mxPoint x="300" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8m2Un-KxhI17GBS5mbq-2" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="GitHub Actions" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d8m2Un-KxhI17GBS5mbq-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Container Registry" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-2" edge="1" parent="1" source="d8m2Un-KxhI17GBS5mbq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="d8m2Un-KxhI17GBS5mbq-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8m2Un-KxhI17GBS5mbq-8" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="GitOps Repo" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-1" edge="1" parent="1" source="d8m2Un-KxhI17GBS5mbq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="d8m2Un-KxhI17GBS5mbq-12" value="Reconcile">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="420" />
+              <mxPoint x="580" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8m2Un-KxhI17GBS5mbq-10" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Argo CD" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="d8m2Un-KxhI17GBS5mbq-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;align=left;" value="&lt;div style=&quot;text-align: justify; line-height: 100%;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="710" x="225" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-28" edge="1" parent="1" source="-NzyHTiAaNHN2LMEVOY5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-NzyHTiAaNHN2LMEVOY5-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="Ingress&lt;div&gt;Route external HTTP(S) traffic to service&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="266" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Kubernetes Cluster" vertex="1">
+          <mxGeometry height="30" width="120" x="230" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-30" edge="1" parent="1" source="-NzyHTiAaNHN2LMEVOY5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-NzyHTiAaNHN2LMEVOY5-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-15" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontStyle=1" value="Service&lt;div&gt;Stable endpoint&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="266" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-20" edge="1" parent="1" source="-NzyHTiAaNHN2LMEVOY5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-NzyHTiAaNHN2LMEVOY5-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-22" edge="1" parent="1" source="-NzyHTiAaNHN2LMEVOY5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-NzyHTiAaNHN2LMEVOY5-21" value="Manages">
+          <mxGeometry relative="1" x="-0.7692" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-17" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;b&gt;Deployment&lt;/b&gt;&lt;div&gt;payment-api.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;replicas:2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;image: payment-api:v1.2&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="270" x="446" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-19" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontStyle=1" value="Pod 1" vertex="1">
+          <mxGeometry height="30" width="80" x="461" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-21" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fontStyle=1" value="Pod 2" vertex="1">
+          <mxGeometry height="30" width="80" x="611" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-33" edge="1" parent="1" source="-NzyHTiAaNHN2LMEVOY5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-NzyHTiAaNHN2LMEVOY5-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-34" edge="1" parent="1" source="-NzyHTiAaNHN2LMEVOY5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="426.00058823529434" y="735" as="sourcePoint" />
+            <mxPoint x="498.5888235294117" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="Service routing traffic directly to ready pods" vertex="1">
+          <mxGeometry height="30" width="235" x="461" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTPS traffic&lt;div&gt;(External Client)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="240" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-36" edge="1" parent="1" source="-NzyHTiAaNHN2LMEVOY5-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" value="Runtime config">
+          <mxGeometry relative="1" x="0.0776" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="836" y="650" />
+              <mxPoint x="650" y="650" />
+            </Array>
+            <mxPoint x="650" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NzyHTiAaNHN2LMEVOY5-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Application Config / Secrets" vertex="1">
+          <mxGeometry height="60" width="150" x="761" y="547.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
